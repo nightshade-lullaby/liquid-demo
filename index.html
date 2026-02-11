@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>macOS Liquid Glass Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Wallpaper Background -->
+  <div class="wallpaper"></div>
+
+  <!-- Top Menu Bar -->
+  <div class="menu-bar glass">
+    <div class="menu-left"> Demo</div>
+    <div class="menu-right" id="clock"></div>
+  </div>
+
+  <!-- Desktop Content -->
+  <div class="desktop">
+
+    <div class="window glass" id="mainWindow">
+      <div class="window-header">
+        <div class="controls">
+          <span class="control red"></span>
+          <span class="control yellow"></span>
+          <span class="control green"></span>
+        </div>
+        <span class="title">Liquid Glass UI</span>
+      </div>
+
+      <div class="window-content">
+        <h1>Clean. Layered. Fluid.</h1>
+        <p>This demo focuses purely on macOS-style UI philosophy:</p>
+        <ul>
+          <li>Translucency</li>
+          <li>Depth & layering</li>
+          <li>Smooth transitions</li>
+          <li>Glass morphism</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Dock -->
+  <div class="dock glass" id="dock">
+    <div class="dock-icon"></div>
+    <div class="dock-icon"></div>
+    <div class="dock-icon"></div>
+    <div class="dock-icon"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
